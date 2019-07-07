@@ -1,0 +1,18 @@
+# java_tutorials
+Приветствую всех! По многочисленным просьбам в этом репозитории выложены исходники для моих обучающих видео на Youtube, у котрых нет собственного репозитория.
+
+Перечень видео:
+
+Название|Youtube|Исходники
+--------|-------|---------
+ Java. Поиск минимального элемента в массиве|https://youtu.be/J8CbZYnJ5O8|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/minimal/Main.java
+ Java. Сортировка пузырьком.|https://youtu.be/aXyMkR8LGEo|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/sort/BubbleSort.java
+ Java. Поиск файлов в папках на диске.|https://youtu.be/OaltzA7uCRY|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/file_search/files.java
+ Java. О сортировке выбором.|https://youtu.be/gjzLnfYc48w|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/sort/SelectionSort.java
+ Java. Быстрая сортировка. Объяснение на пальцах)|https://youtu.be/CeHJV4zu_Ts|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/sort/QuickSort.java
+ Java. Обобщенные операции со списками в функциональном стиле.|https://youtu.be/nUv2VrZugSU|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/funcops
+ Java. Многопоточность. Ключевое слово synchronized|https://youtu.be/44GqCiEjY14|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/multithreading/synchro/Syncro.java
+ Java. Многопоточность. Методы wait и notify. Блокирующая очередь и Worker Thread.|https://youtu.be/CA4oUmywL28|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/multithreading/queue
+ Java. Методы equals и hashCode.|https://youtu.be/lWnzRILIEZ0|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/equals
+ Java. Сортировка слиянием.|https://youtu.be/wk6hUweJ4UA|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/sort/MergeSort.java
+ Java. Работа с датой и временем.|https://youtu.be/9NDRSR7ot2g|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/time
