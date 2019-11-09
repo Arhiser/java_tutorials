@@ -23,3 +23,4 @@
 Java. Деревья ч.1. Рекурсивный обход в глубину|https://youtu.be/rwjtcJSNpBs|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/tree1/tree.java
 Java. Очередь и стек.|https://youtu.be/X07Y7pkHHJc|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/stack
 Java. Деревья ч.2. Итеративный обход дерева в глубину и ширину.|https://youtu.be/pcicxEjCPZY|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/tree2
+Java. Поиск второго по минимальности элемента в массиве.|https://youtu.be/03iETRvZrFg|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/second_minimal/Main.java
