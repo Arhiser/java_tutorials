@@ -25,3 +25,4 @@ Java. Очередь и стек.|https://youtu.be/X07Y7pkHHJc|https://github.co
 Java. Деревья ч.2. Итеративный обход дерева в глубину и ширину.|https://youtu.be/pcicxEjCPZY|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/tree2
 Java. Поиск второго по минимальности элемента в массиве.|https://youtu.be/03iETRvZrFg|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/second_minimal/Main.java
 Java. Алгоритмы поиска строки: наивный, Кнута-Морриса-Пратта.|https://youtu.be/bBFg9LXdZA4|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/string_search/Main.java
+Java. Вычисление арифметического выражения из строки методом рекурсивного спуска.|https://youtu.be/iLnNqqom5KY|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/parser/Main.java
