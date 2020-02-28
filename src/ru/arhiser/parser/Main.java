@@ -151,9 +151,13 @@ public class Main {
                 case OP_MINUS:
                     value -= multdiv(lexemes);
                     break;
-                default:
+                case EOF:
+                case RIGHT_BRACKET:
                     lexemes.back();
                     return value;
+                default:
+                    throw new RuntimeException("Unexpected token: " + lexeme.value
+                            + " at position: " + lexemes.getPos());
             }
         }
     }
@@ -169,9 +173,15 @@ public class Main {
                 case OP_DIV:
                     value /= factor(lexemes);
                     break;
-                default:
+                case EOF:
+                case RIGHT_BRACKET:
+                case OP_PLUS:
+                case OP_MINUS:
                     lexemes.back();
                     return value;
+                default:
+                    throw new RuntimeException("Unexpected token: " + lexeme.value
+                            + " at position: " + lexemes.getPos());
             }
         }
     }
