@@ -27,3 +27,4 @@ Java. Поиск второго по минимальности элемента
 Java. Алгоритмы поиска строки: наивный, Кнута-Морриса-Пратта.|https://youtu.be/bBFg9LXdZA4|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/string_search/Main.java
 Java. Вычисление арифметического выражения из строки методом рекурсивного спуска.|https://youtu.be/iLnNqqom5KY|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/parser/Main.java
 Java. Обобщенный класс для представления дерева с любыми данными.|https://youtu.be/DUUgn0fMMnw|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/tree3
+Java. Парсер арифметических выражений, часть 2: оператор "унарный минус" и вызов функций.|https://youtu.be/ARTnW-unrAQ|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/parserfunc/Main.java
