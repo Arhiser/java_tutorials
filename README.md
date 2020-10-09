@@ -30,3 +30,4 @@ Java. Обобщенный класс для представления дере
 Java. Парсер арифметических выражений, часть 2: оператор "унарный минус" и вызов функций.|https://youtu.be/ARTnW-unrAQ|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/parserfunc/Main.java
 Java. Решето Эратосфена. Проверка числа но простоту.|https://youtu.be/snRFphzl-bU|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/primenums
 Java. Алгоритм Хаффмана для компрессии данных.|https://youtu.be/OQrwOywESGg|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/huffman/Main.java
+Java. Обращение односвязного списка.|https://youtu.be/Nzz4i1QWmJw|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/linkedlist/Main.java
