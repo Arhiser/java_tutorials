@@ -33,3 +33,4 @@ Java. Алгоритм Хаффмана для компрессии данных
 Java. Обращение односвязного списка.|https://youtu.be/Nzz4i1QWmJw|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/linkedlist/Main.java
 Java. Рисуем звезды в 3D пространстве.|https://youtu.be/BgbIh5ktOs4|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/stars
 Java. Сортировка подсчетом.|https://youtu.be/WBS8qlrry0U|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/sort/count
+Java. Сортировка вставками.|https://youtu.be/jywoZ2XaQoM|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/sort/insertion/InsertionSort.java
