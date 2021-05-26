@@ -10,7 +10,7 @@ public class BitBuffer {
 
     public BitBuffer(int size) {
         this.size = size;
-        int sizeInBytes = size / 8;
+        int sizeInBytes = size >> 3;
         if (size % 8 > 0) {
             sizeInBytes = sizeInBytes + 1;
         }
@@ -27,14 +27,14 @@ public class BitBuffer {
     }
 
     public int get(int index) {
-        int byteIndex = index / 8;
-        int bitIndex = index % 8;
+        int byteIndex = index >> 3;
+        int bitIndex = index & 0b111;
         return (bytes[byteIndex] & masks[bitIndex]) != 0 ? 1 : 0;
     }
 
     public void set(int index, int value) {
-        int byteIndex = index / 8;
-        int bitIndex = index % 8;
+        int byteIndex = index >> 3;
+        int bitIndex = index & 0b111;
         if (value != 0) {
             bytes[byteIndex] = (byte) (bytes[byteIndex] | masks[bitIndex]);
         } else {
@@ -43,8 +43,8 @@ public class BitBuffer {
     }
 
     public void append(int value) {
-        int byteIndex = current / 8;
-        int bitIndex = current % 8;
+        int byteIndex = current >> 3;
+        int bitIndex = current & 0b111;
         if (value != 0) {
             bytes[byteIndex] = (byte) (bytes[byteIndex] | masks[bitIndex]);
         } else {

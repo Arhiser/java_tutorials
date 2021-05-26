@@ -2,7 +2,6 @@ package ru.arhiser.huffman_adapt.digital;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class EncodingModelRefreshing implements EncodingModel {
@@ -10,7 +9,7 @@ public class EncodingModelRefreshing implements EncodingModel {
     public final CodeTreeNode ZERO_NODE = new CodeTreeNode(null, 0);
 
     private CodeTreeNode tree = ZERO_NODE;
-    private final List<CodeTreeNode> nodeList = new ArrayList<>();
+    private final List<CodeTreeNode> nodeList = new ArrayList<>(500);
     private final BitBuffer bitBuffer = new BitBuffer(1024);
     private final CodeTreeNode[] nodeCache = new CodeTreeNode[256];
 
@@ -37,8 +36,7 @@ public class EncodingModelRefreshing implements EncodingModel {
             } else {
                 tree = intermediate;
             }
-            nodeList.remove(nodeList.size() - 1);
-            nodeList.add(intermediate);
+            nodeList.set(nodeList.size() - 1, intermediate);
             nodeList.add(newNode);
             nodeList.add(ZERO_NODE);
 
@@ -97,10 +95,8 @@ public class EncodingModelRefreshing implements EncodingModel {
                 }
             }
 
-            nodeList.remove(j);
-            nodeList.add(j, first);
-            nodeList.remove(i);
-            nodeList.add(i, second);
+            nodeList.set(j, first);
+            nodeList.set(i, second);
             return true;
         }
         return false;

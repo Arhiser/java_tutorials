@@ -17,7 +17,7 @@ public class BitToByteWriter {
     }
 
     public void close() throws IOException {
-        if (bitWritten % 8 != 0) {
+        if ((bitWritten & 0b111) != 0) {
             target.write(bitBuffer);
             bytesWritten += 1;
         }
@@ -26,7 +26,7 @@ public class BitToByteWriter {
     }
 
     public void writeBit(int bit) throws IOException {
-        int bitIndex = bitWritten % 8;
+        int bitIndex = bitWritten & 0b111;
         int mask = 1 << bitIndex;
         switch (bit) {
             case 1:
