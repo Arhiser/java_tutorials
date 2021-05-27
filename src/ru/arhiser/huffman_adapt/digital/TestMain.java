@@ -13,6 +13,9 @@ public class TestMain {
         //createTestFile();
     }
 
+    /**
+     * проверка кодирования строки
+     */
     private static void codecTest() {
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         HuffmanEncoderStream huffmanEncoderStream = new HuffmanEncoderStream(new EncodingModelRefreshing(), byteArrayOutputStream);
@@ -40,6 +43,9 @@ public class TestMain {
         assert byteArrayOutputStream.toString().equals(text);
     }
 
+    /**
+     * проверка кодирования файла
+     */
     private static void fileCodecTest() {
         try {
             String content = new String(Files.readAllBytes(Paths.get(".\\src\\ru\\arhiser\\huffman\\voyna-i-mir-tom-1.txt")));
@@ -64,6 +70,9 @@ public class TestMain {
         }
     }
 
+    /**
+     * проверка кодирования файла с чтением через FileInputStream
+     */
     private static void fileCodecDigitalTest() {
         try {
             BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(".\\src\\ru\\arhiser\\huffman_adapt\\digital\\voyna-i-mir-tom-1.huf"));
@@ -88,22 +97,6 @@ public class TestMain {
             decodeOutput.close();
             huffmanDecoderStream.close();
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static void createTestFile() {
-        try {
-            BufferedOutputStream output = new BufferedOutputStream(new FileOutputStream(".\\src\\ru\\arhiser\\huffman_adapt\\digital\\test.dat"));
-            for (int j = 0; j < 5; j++) {
-                for (int i = 0; i < 256; i++) {
-                    output.write(i);
-                }
-            }
-            output.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }

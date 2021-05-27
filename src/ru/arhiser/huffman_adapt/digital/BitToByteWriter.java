@@ -3,6 +3,12 @@ package ru.arhiser.huffman_adapt.digital;
 import java.io.IOException;
 import java.io.OutputStream;
 
+/**
+ * Класс, осуществляющий упаковку отдельных битов в байты
+ * методом writeBit() добавляем по одному биту, как только накопится 8 бит,
+ * они объединяются в байт, который записывается в целевой поток
+ * OutputStream target;
+ */
 public class BitToByteWriter {
 
     int bitBuffer;

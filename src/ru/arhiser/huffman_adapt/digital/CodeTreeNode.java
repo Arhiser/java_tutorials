@@ -1,7 +1,9 @@
 package ru.arhiser.huffman_adapt.digital;
 
-import java.util.ArrayList;
 
+/**
+ * Класс для представления узла кодового дерева
+ */
 public class CodeTreeNode implements Comparable<CodeTreeNode> {
 
     Integer content;

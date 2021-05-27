@@ -1,5 +1,8 @@
 package ru.arhiser.huffman_adapt.digital;
 
+/**
+ * Класс реализующий битовый массив
+ */
 public class BitBuffer {
     int size;
     int current;
@@ -10,7 +13,7 @@ public class BitBuffer {
 
     public BitBuffer(int size) {
         this.size = size;
-        int sizeInBytes = size >> 3;
+        int sizeInBytes = size >> 3; // int sizeInBytes = size / 8;
         if (size % 8 > 0) {
             sizeInBytes = sizeInBytes + 1;
         }
@@ -27,8 +30,8 @@ public class BitBuffer {
     }
 
     public int get(int index) {
-        int byteIndex = index >> 3;
-        int bitIndex = index & 0b111;
+        int byteIndex = index >> 3;     // int sizeInBytes = size / 8;  оптимизация - замена деления битовыми операциями
+        int bitIndex = index & 0b111;   // int bitIndex = index % 8;
         return (bytes[byteIndex] & masks[bitIndex]) != 0 ? 1 : 0;
     }
 
