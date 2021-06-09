@@ -29,4 +29,20 @@ public class CodeTreeNode implements Comparable<CodeTreeNode> {
     public int compareTo(CodeTreeNode o) {
         return o.weight - weight;
     }
+
+    public int updateWeights() {
+        if (content != null) {
+            return weight;
+        } else {
+            int w = 0;
+            if (right != null) {
+                w += right.updateWeights();
+            }
+            if (left != null) {
+                w += left.updateWeights();
+            }
+            weight = w;
+            return weight;
+        }
+    }
 }

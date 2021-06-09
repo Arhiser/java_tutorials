@@ -66,7 +66,9 @@ public class EncodingModelRefreshing implements EncodingModel {
 
         // восстанавливаем упорядоченность дерева, если она была нарушена в результате
         // проделаных выше процедур по обновлению дерева
-        while (reorderNodes());
+        while (reorderNodes()) {
+            tree.updateWeights();
+        }
     }
 
     /**

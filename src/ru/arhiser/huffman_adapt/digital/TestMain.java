@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 
 public class TestMain {
     public static void main(String[] args) {
-        codecTest();
+       // codecTest();
         //fileCodecTest();
         fileCodecDigitalTest();
         //createTestFile();
