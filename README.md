@@ -36,3 +36,4 @@ Java. Сортировка подсчетом.|https://youtu.be/WBS8qlrry0U|http
 Java. Сортировка вставками.|https://youtu.be/jywoZ2XaQoM|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/sort/insertion/InsertionSort.java
 Java. Префиксное дерево.|https://youtu.be/-DGJuakdiYU|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/prefix_tree/Main.java
 Java. Адаптивная компрессия Хаффмана.|https://youtu.be/IEe3qkdZ99c|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/huffman_adapt/digital
+Java. Алгоритм генерации фрактального шума|https://youtu.be/a-j8vgLfUqA|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/fract_noise
