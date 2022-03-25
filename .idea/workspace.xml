@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6896c67a-f0c8-48ee-9c08-fdc93266d00c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="6896c67a-f0c8-48ee-9c08-fdc93266d00c" name="Default Changelist" comment="Refactored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/bitops/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/bitops/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/fract_noise/FractalNoise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/fract_noise/FractalNoise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/fract_noise/Noise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/fract_noise/Noise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/huffman/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/huffman/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/huffman_adapt/digital/CoderTestApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/huffman_adapt/digital/CoderTestApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/iterator/MainFieldEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/iterator/MainFieldEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/sort/comparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/sort/comparator/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,6 +270,14 @@
       <option name="presentableId" value="Default" />
       <updated>1549137830126</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactored">
+      <created>1648175784928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648175784928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -348,6 +348,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
