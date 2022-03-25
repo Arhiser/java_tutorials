@@ -23,7 +23,7 @@ public class Main {
         }
 
         // строим кодовое дерево с помощью алгоритма Хаффмана
-        CodeTreeNode tree = huffman(codeTreeNodes);
+        CodeTreeNode tree = CodeTreeNode.huffmanEncode(codeTreeNodes);
 
         // генерируем таблицу префиксных кодов для кодируемых символов с помощью кодового дерева
         TreeMap<Character, String> codes = new TreeMap<>();
@@ -62,18 +62,6 @@ public class Main {
         return freqMap;
     }
 
-    private static CodeTreeNode huffman(ArrayList<CodeTreeNode> codeTreeNodes) {
-        while (codeTreeNodes.size() > 1) {
-            Collections.sort(codeTreeNodes);
-            CodeTreeNode left = codeTreeNodes.remove(codeTreeNodes.size() - 1);
-            CodeTreeNode right = codeTreeNodes.remove(codeTreeNodes.size() - 1);
-
-            CodeTreeNode parent = new CodeTreeNode(null, right.weight + left.weight, left, right);
-            codeTreeNodes.add(parent);
-        }
-        return  codeTreeNodes.get(0);
-    }
-
     private static String huffmanDecode(String encoded, CodeTreeNode tree) {
         StringBuilder decoded = new StringBuilder();
 
@@ -106,6 +94,18 @@ public class Main {
             this.weight = weight;
             this.left = left;
             this.right = right;
+        }
+
+        private static CodeTreeNode huffmanEncode(ArrayList<CodeTreeNode> codeTreeNodes) {
+            while (codeTreeNodes.size() > 1) {
+                Collections.sort(codeTreeNodes);
+                CodeTreeNode left = codeTreeNodes.remove(codeTreeNodes.size() - 1);
+                CodeTreeNode right = codeTreeNodes.remove(codeTreeNodes.size() - 1);
+
+                CodeTreeNode parent = new CodeTreeNode(null, right.weight + left.weight, left, right);
+                codeTreeNodes.add(parent);
+            }
+            return  codeTreeNodes.get(0);
         }
 
         @Override
@@ -262,7 +262,7 @@ public class Main {
                 codeTreeNodes.add(new CodeTreeNode(c, frequencies.get(c)));
             }
             // построение кодового дерева алгоритмом Хаффмана
-            CodeTreeNode tree = huffman(codeTreeNodes);
+            CodeTreeNode tree = CodeTreeNode.huffmanEncode(codeTreeNodes);
 
             // постоение таблицы префиксных кодов для символов исходного текста
             TreeMap<Character, String> codes = new TreeMap<>();
@@ -292,7 +292,7 @@ public class Main {
             for(Character c: frequencies2.keySet()) {
                 codeTreeNodes.add(new CodeTreeNode(c, frequencies2.get(c)));
             }
-            CodeTreeNode tree2 = huffman(codeTreeNodes);
+            CodeTreeNode tree2 = CodeTreeNode.huffmanEncode(codeTreeNodes);
 
             // декодирование обратно исходной информации из сжатой
             String decoded = huffmanDecode(encoded2.toString(), tree2);

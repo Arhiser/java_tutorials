@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6896c67a-f0c8-48ee-9c08-fdc93266d00c" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6896c67a-f0c8-48ee-9c08-fdc93266d00c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/bitops/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/bitops/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/fract_noise/FractalNoise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/fract_noise/FractalNoise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/fract_noise/Noise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/fract_noise/Noise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/huffman/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/huffman/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/huffman_adapt/digital/CoderTestApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/huffman_adapt/digital/CoderTestApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/iterator/MainFieldEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/iterator/MainFieldEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/arhiser/sort/comparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/arhiser/sort/comparator/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/stream$Parallel.ic" NAME="Parallel Coverage Results" MODIFIED="1553273541838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -17,158 +28,24 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="209" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="363239018">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="39" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="12" />
-          <entry key="project.open.time.7" value="11" />
-          <entry key="project.open.time.8" value="6" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="44" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="14390" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="14390" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="92" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="92" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/arhiser/multithreading/synchro/Syncro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/arhiser/search/Search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-685">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/arhiser/time/Dateformat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/arhiser/file_search/files.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/arhiser/minimal/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/arhiser/sort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/arhiser/time/Calendars.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/arhiser/sort/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-107">
-              <caret line="28" column="58" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/arhiser/sort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/arhiser/sort/SelectionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -209,12 +86,16 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-20" />
     <option name="y" value="5" />
     <option name="width" value="3875" />
     <option name="height" value="1540" />
   </component>
+  <component name="ProjectId" id="26nryYH9hPqUjms7ilgJXxD4tfu" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -272,12 +153,27 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\arhiser\projects\stream\src\ru\arhiser" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\arhiser\projects\stream\src\ru\arhiser\ffffffff" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="ru.arhiser.huffman_adapt.digital.EncodeAndDecodeApp" />
+      <recent name="ru.arhiser.huffman.Main.CodeTreeNode" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ru.arhiser.funcops" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="ru.arhiser.ffffffff" />
@@ -286,29 +182,14 @@
       <recent name="ru.arhiser.sort" />
       <recent name="ru.arhiser.equals" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\arhiser\projects\stream\src\ru\arhiser" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Calendars">
-    <configuration name="Calendars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.arhiser.time.Calendars" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="CoderTestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.arhiser.huffman_adapt.digital.CoderTestApp" />
       <module name="stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.arhiser.time.*" />
+          <option name="PATTERN" value="ru.arhiser.huffman_adapt.digital.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dateformat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.arhiser.time.Dateformat" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.arhiser.bitops.Main" />
       <module name="stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.arhiser.time.*" />
+          <option name="PATTERN" value="ru.arhiser.bitops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.arhiser.time.Dates" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.arhiser.huffman.Main" />
       <module name="stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.arhiser.time.*" />
+          <option name="PATTERN" value="ru.arhiser.huffman.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Millis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.arhiser.time.Millis" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.arhiser.fract_noise.Main" />
       <module name="stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.arhiser.time.*" />
+          <option name="PATTERN" value="ru.arhiser.fract_noise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,12 +236,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.arhiser.search.Search" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.arhiser.funcops.Test2" />
       <module name="stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.arhiser.search.*" />
+          <option name="PATTERN" value="ru.arhiser.funcops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,22 +250,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Search" />
-      <item itemvalue="Application.Millis" />
-      <item itemvalue="Application.Dates" />
-      <item itemvalue="Application.Dateformat" />
-      <item itemvalue="Application.Calendars" />
+      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.CoderTestApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calendars" />
-        <item itemvalue="Application.Dateformat" />
-        <item itemvalue="Application.Dates" />
-        <item itemvalue="Application.Millis" />
-        <item itemvalue="Application.Search" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CoderTestApp" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -456,20 +338,16 @@
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32997987" />
     </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/arhiser/multithreading/synchro/Syncro.java</url>
-          <line>4</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
