@@ -46,7 +46,7 @@ public class PerformanceTest {
         Utils.measureTime(() -> BubbleSort.sort(array5), "Bubble sort");
         Utils.measureTime(() -> BubbleSortKnuth.sort(array6), "Bubble sort Knuth");
         Utils.measureTime(() -> SelectionSort.sort(array7), "Selection sort");
-        Utils.measureTime(() -> SelectionSort.sort(array8), "Comb sort");
+        Utils.measureTime(() -> CombSort.sort(array8), "Comb sort");
 
         Utils.assertTrue(Arrays.equals(array6, array7));
         Utils.assertTrue(Arrays.equals(array7, array8));
