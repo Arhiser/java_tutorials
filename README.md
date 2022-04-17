@@ -38,4 +38,4 @@ Java. Префиксное дерево.|https://youtu.be/-DGJuakdiYU|https://gi
 Java. Адаптивная компрессия Хаффмана.|https://youtu.be/IEe3qkdZ99c|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/huffman_adapt/digital
 Java. Алгоритм генерации фрактального шума|https://youtu.be/a-j8vgLfUqA|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/fract_noise
 Java. Задача о рюкзаке. Динамическое программирование.|https://youtu.be/wcjqBf2qRe0|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/knapsack
-Java. Сортировка расческой. От пузырька до расчески.|https://youtu.be/le2oGbWML30|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/sort/comb
+Java. Сортировка расческой. От пузырька до расчески.|https://youtu.be/ywGK-_3znMw|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/sort/comb
