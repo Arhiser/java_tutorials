@@ -21,4 +21,17 @@ public class Utils {
 
         frame.setVisible(true);
     }
+
+    public static void measureTime(Runnable task, String taskName) {
+        long startTime = System.currentTimeMillis();
+        task.run();
+        long elapsed = System.currentTimeMillis() - startTime;
+        System.out.println(taskName + ": " + elapsed + " ms");
+    }
+
+    public static void assertTrue(boolean condition) {
+        if (!condition) {
+            throw new AssertionError();
+        }
+    }
 }

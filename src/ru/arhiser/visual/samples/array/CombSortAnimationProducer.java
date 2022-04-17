@@ -6,11 +6,11 @@ import ru.arhiser.visual.impl.IntArrayDrawable;
 
 import java.util.List;
 
-public class BubbleSortAnimationProducer implements AnimationProducer<IntArrayDrawable> {
+public class CombSortAnimationProducer implements AnimationProducer<IntArrayDrawable> {
 
     int[] array;
 
-    public BubbleSortAnimationProducer(int[] array) {
+    public CombSortAnimationProducer(int[] array) {
         this.array = array;
     }
 
@@ -19,12 +19,25 @@ public class BubbleSortAnimationProducer implements AnimationProducer<IntArrayDr
 
         SortAnimationRecorder sortAnimationRecorder = new SortAnimationRecorder(sceneRoot, array);
 
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 1; j < array.length - i; j++) {
-                if (array[j - 1] > array[j]) {
-                    int tmp = array[j - 1];
-                    array[j - 1] = array[j];
-                    array[j] = tmp;
+        int gap = array.length;
+
+        boolean isSorted = false;
+        while (!isSorted || gap != 1) {
+
+            if (gap > 1) {
+                gap = gap * 10 / 13; // gap / 1.3
+            } else {
+                gap = 1;
+            }
+
+            isSorted = true;
+            for (int i = gap; i < array.length; i++) {
+                sortAnimationRecorder.highliteElements(array[i - gap], array[i]);
+                if (array[i - gap] > array[i]) {
+                    int tmp = array[i];
+                    array[i] = array[i - gap];
+                    array[i - gap] = tmp;
+                    isSorted = false;
 
                     sortAnimationRecorder.recordStep(array);
                 }

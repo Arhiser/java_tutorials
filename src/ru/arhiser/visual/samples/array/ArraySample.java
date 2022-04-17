@@ -22,12 +22,12 @@ public class ArraySample {
 
         IntArrayDrawable arrayDrawable = new IntArrayDrawable(0, 0, 800, 600, array);
 
-        QuickSortAnimationProducer quickSortAnimationProducer = new QuickSortAnimationProducer(array);
-        List<Animator> animatorList = quickSortAnimationProducer.makeAnimation(arrayDrawable);
+        CombSortAnimationProducer combSortAnimationProducer = new CombSortAnimationProducer(array);
+        List<Animator> animatorList = combSortAnimationProducer.makeAnimation(arrayDrawable);
 
         Scene scene = new Scene(raster, arrayDrawable, animatorList);
 
-        RasterFileWriter rasterFileWriter = new RasterFileWriter(raster, "D:\\arhiser\\youtube\\sort_visual\\quick\\");
+        RasterFileWriter rasterFileWriter = new RasterFileWriter(raster, "D:\\arhiser\\youtube\\comb_sort\\comb\\");
 
         Timer timer = new Timer();
         timer.scheduleAtFixedRate(new TimerTask() {
@@ -35,7 +35,7 @@ public class ArraySample {
             public void run() {
                 boolean finished;
                 finished = !scene.renderNext();
-                rasterFileWriter.writeNextFrame();
+                //rasterFileWriter.writeNextFrame();
                 rasterWindow.updateRaster();
 
                 if (finished) {
