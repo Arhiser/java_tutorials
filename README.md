@@ -39,3 +39,4 @@ Java. Адаптивная компрессия Хаффмана.|https://youtu.
 Java. Алгоритм генерации фрактального шума|https://youtu.be/a-j8vgLfUqA|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/fract_noise
 Java. Задача о рюкзаке. Динамическое программирование.|https://youtu.be/wcjqBf2qRe0|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/knapsack
 Java. Сортировка расческой. От пузырька до расчески.|https://youtu.be/ywGK-_3znMw|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/sort/comb
+Java. Системы счисления. Алгоритм перевода в произвольную систему счисления.|https://youtu.be/O9jc8_5wcuQ|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/calculus/Main.java
