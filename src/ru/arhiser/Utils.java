@@ -2,14 +2,20 @@ package ru.arhiser;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.image.BufferedImage;
 
 public class Utils {
 
     public static void showImageWindow(Image image) {
-        showImageWindow(image, 1024, 768);
+        showImageWindow(image, image.getWidth(null), image.getHeight(null));
     }
 
     public static void showImageWindow(Image image, int width, int height) {
+
+        if (image.getWidth(null) != width || image.getHeight(null) != height) {
+            image = image.getScaledInstance(width, height, Image.SCALE_SMOOTH);
+        }
+
         JFrame frame = new JFrame();
         frame.setSize(width, height);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -33,5 +39,13 @@ public class Utils {
         if (!condition) {
             throw new AssertionError();
         }
+    }
+
+    public static BufferedImage toBufferedImage(Image img) {
+        BufferedImage bimage = new BufferedImage(img.getWidth(null), img.getHeight(null), BufferedImage.TYPE_INT_ARGB);
+        Graphics2D bGr = bimage.createGraphics();
+        bGr.drawImage(img, 0, 0, null);
+        bGr.dispose();
+        return bimage;
     }
 }
