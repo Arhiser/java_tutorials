@@ -41,3 +41,4 @@ Java. Задача о рюкзаке. Динамическое программ�
 Java. Сортировка расческой. От пузырька до расчески.|https://youtu.be/ywGK-_3znMw|https://github.com/Arhiser/java_tutorials/tree/master/src/ru/arhiser/sort/comb
 Java. Системы счисления. Алгоритм перевода в произвольную систему счисления.|https://youtu.be/O9jc8_5wcuQ|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/calculus/Main.java
 Java. Dithering. Алгоритм генерации черно-белых изображений.|https://youtu.be/oAsaB90f2Y0|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/dithering/Main.java
+Java. Bogosort. Случайная сортировка.|https://youtu.be/4Kpb_TTgdmU|https://github.com/Arhiser/java_tutorials/blob/master/src/ru/arhiser/sort/bogo/Main.java
