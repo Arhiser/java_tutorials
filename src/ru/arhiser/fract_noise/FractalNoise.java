@@ -2,7 +2,7 @@ package ru.arhiser.fract_noise;
 
 import java.util.ArrayList;
 
-public class FractalNoise {
+public class FractalNoise implements GetValue{
 
     int baseScale;
 
@@ -20,7 +20,7 @@ public class FractalNoise {
             scale = scale / 2;
         }
     }
-
+@Override
     public float getValue(int x, int y) {
         float sum = 0;
         float fraction = 0.5f;

@@ -1,6 +1,6 @@
 package ru.arhiser.fract_noise;
 
-public class Noise {
+public class Noise implements GetValue {
 
     int scale;
 
@@ -11,6 +11,7 @@ public class Noise {
         this.random = random;
     }
 
+    @Override
     public float getValue(int x, int y) {
         int xgrid = x / scale;
         int ygrid = y / scale;
