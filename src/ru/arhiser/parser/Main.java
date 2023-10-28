@@ -74,6 +74,10 @@ public class Main {
         public int getPos() {
             return pos;
         }
+
+        public Lexeme getElementAt(int pos) {
+            return lexemes.get(pos);
+        }
     }
 
     public static List<Lexeme> lexAnalyze(String expText) {
@@ -95,7 +99,14 @@ public class Main {
                     pos++;
                     continue;
                 case '-':
-                    lexemes.add(new Lexeme(LexemeType.OP_MINUS, c));
+                    var last = lexemes.size() > 0 ? lexemes.get(lexemes.size() - 1) : null;
+                    if (last != null && last.type == LexemeType.OP_MINUS) {
+                       lexemes.set(lexemes.size() - 1, new Lexeme(LexemeType.OP_PLUS, "+"));
+                    } else if (last != null && last.type == LexemeType.OP_PLUS) {
+                       lexemes.set(lexemes.size() - 1, new Lexeme(LexemeType.OP_MINUS, "-"));
+                    } else {
+                       lexemes.add(new Lexeme(LexemeType.OP_MINUS, c));
+                    }
                     pos++;
                     continue;
                 case '*':
@@ -189,6 +200,19 @@ public class Main {
     public static int factor(LexemeBuffer lexemes) {
         Lexeme lexeme = lexemes.next();
         switch (lexeme.type) {
+            case OP_MINUS:
+                 if (lexemes.getPos() == 1)
+                     return Integer.parseInt(lexeme.value + factor(lexemes));
+
+                 Lexeme lexemeBefore = lexemes.getElementAt(lexemes.getPos() - 2);
+                 if (lexemeBefore.type == LexemeType.LEFT_BRACKET
+                     || lexemeBefore.type == LexemeType.OP_DIV
+                     || lexemeBefore.type == LexemeType.OP_MUL) {
+                         int f = factor(lexemes);
+                         return  f > 0 ? Integer.parseInt(lexeme.value + f) : Math.abs(f);
+                 }
+
+                 throw new RuntimeException("Unexpected token: " + lexeme.value + " at position: " + lexemes.getPos());
             case NUMBER:
                 return Integer.parseInt(lexeme.value);
             case LEFT_BRACKET:
@@ -204,5 +228,4 @@ public class Main {
                         + " at position: " + lexemes.getPos());
         }
     }
-
 }
