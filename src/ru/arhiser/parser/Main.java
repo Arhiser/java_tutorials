@@ -14,13 +14,23 @@ public class Main {
 //
 //    multdiv : factor ( ( '*' | '/' ) factor )* ;
 //
-//    factor : NUMBER | '(' expr ')' ;
+//    factor : '(' ('-' NUMBER) | ^('-' NUMBER) | NUMBER | '(' expr ')' ;
 
 
     public static void main(String[] args) {
         String expressionText = "122 - 34 - 3* (55 + 5* (3 - 2)) * 2";
         List<Lexeme> lexemes = lexAnalyze(expressionText);
         LexemeBuffer lexemeBuffer = new LexemeBuffer(lexemes);
+        System.out.println(expr(lexemeBuffer));
+
+        expressionText = "- 122"; //
+        lexemes = lexAnalyze(expressionText);
+        lexemeBuffer = new LexemeBuffer(lexemes);
+        System.out.println(expr(lexemeBuffer));
+
+        expressionText = "122 - ( (- 34) - 3)";
+        lexemes = lexAnalyze(expressionText);
+        lexemeBuffer = new LexemeBuffer(lexemes);
         System.out.println(expr(lexemeBuffer));
     }
 
@@ -73,6 +83,10 @@ public class Main {
 
         public int getPos() {
             return pos;
+        }
+
+        public Lexeme lexemeAtPos(int pos) {
+            return lexemes.get(pos);
         }
     }
 
@@ -189,6 +203,15 @@ public class Main {
     public static int factor(LexemeBuffer lexemes) {
         Lexeme lexeme = lexemes.next();
         switch (lexeme.type) {
+            case OP_MINUS:
+                int currentPos = lexemes.getPos();
+                if (currentPos == 1) {
+                    return Integer.parseInt(lexeme.value + factor(lexemes));
+                }
+                Lexeme beforeLexeme = lexemes.lexemeAtPos(currentPos - 2);
+                if (beforeLexeme.type == LexemeType.LEFT_BRACKET) {
+                    return Integer.parseInt(lexeme.value + factor(lexemes));
+                }
             case NUMBER:
                 return Integer.parseInt(lexeme.value);
             case LEFT_BRACKET:
@@ -204,5 +227,4 @@ public class Main {
                         + " at position: " + lexemes.getPos());
         }
     }
-
 }
